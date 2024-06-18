@@ -1,0 +1,74 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Product Page</title>
+    <link rel="stylesheet" href="amazon.css">
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img src="C:\Users\abdul\Downloads\logo.jpg" alt="Amazon Logo">
+        </a>
+        <div class="delivery-address">
+            <span>Deliver to:</span>
+            <span>Your Address</span>
+        </div>
+        <form action="#">
+            <input type="text" placeholder="Search">
+            <button type="submit">Search</button>
+        </form>
+        <nav>
+            <ul>
+                <li><a href="#">Departments</a></li>
+                <li><a href="#">Today's Deals</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="product-image">
+            <img src="C:\Users\abdul\Downloads\product.jpg" alt="Product Image">
+        </div>
+        <<div class="product-details">
+            <h1>Amazon Boxes</h1>
+            <p class="brand">Amazon</p>
+            <div class="rating">
+                <span class="star-icon">&#9733;</span>
+                <span class="star-icon">&#9733;</span>
+                <span class="star-icon">&#9733;</span>
+                <span class="star-icon">&#9733;</span>
+                <span class="star-icon">&#9734;</span>
+                <span class="rating-count">(300 reviews)</span>
+            </div>
+            <p class="price">Rs <span id="price">2000</span></p>
+            <div class="availability">
+                <span>In Stock</span>
+                <span>Free Shipping</span>
+            </div>
+            <div class="description">
+                <p><strong>Description:</strong> The Amazon boxes are well made form heard cardboard and can handle the weight upto 100kg which are sturdy and good quality.</p>
+            </div>
+            <form action="#">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" value="1" min="1">
+                <button type="submit">Add to Cart</button>
+            </form>
+            <ul class="additional-info">
+                <li>Sold by: <a href="#">Seller Name</a></li>
+                <li>Prime Eligible</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Amazon.com, Inc. or its affiliates</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
